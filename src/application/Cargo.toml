@@ -1,0 +1,29 @@
+[package]
+name = "application"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum.workspace=true
+axum-macros.workspace=true
+dotenv.workspace=true
+env_logger.workspace=true
+hyper.workspace=true
+reqwest.workspace=true
+#json
+serde.workspace=true
+serde_json.workspace=true
+
+async-trait.workspace=true
+tokio.workspace=true
+tower.workspace=true
+tower-http.workspace=true
+uuid.workspace=true
+#db
+tokio-postgres.workspace=true
+deadpool-postgres.workspace=true
+postgres-types.workspace=true
+refinery.workspace=true
+config.workspace=true
